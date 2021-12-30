@@ -1,0 +1,100 @@
+body {
+    background-color: #0d1323;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+}
+
+.track {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 100%;
+}
+
+.daily {
+    cursor: pointer;
+}
+
+.monthly {
+    cursor: pointer;
+}
+
+.weekly {
+    cursor: pointer;
+}
+
+.track :hover {
+    background-color: #34397b;
+}
+
+.tiles {
+    margin: 1.5em;
+    background-color: #1d204b;
+    color: white;
+    border-radius: 20px;
+    text-align: left;
+    padding: 20px;
+    width: 60%;
+}
+
+.title-tiles {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.time-tiles {
+    font-size: 45px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.avatar-img {
+    height: 60px;
+    width: 60px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.about {
+    text-align: left;
+    background-color: #1d204b;
+    border-radius: 20px;
+    margin-top: 3.5%;
+    height: 20%;
+}
+
+.avatar {
+    border-radius: 20px;
+    background-color: #5746ea !important;
+    padding: 20px;
+    color: white;
+}
+
+.timing {
+    padding: 20px;
+    color: white;
+}
+
+.timing :hover {
+    color: rgb(194, 193, 193);
+}
+
+.last-time-tiles {
+    font-size: 15px;
+    font-weight: 200;
+    color: rgb(194, 193, 193);
+}
+
+.report-for {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.person-name {
+    font-weight: 300;
+    font-size: 30px;
+}
